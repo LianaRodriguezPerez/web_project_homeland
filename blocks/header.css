@@ -5,6 +5,7 @@
     width: 77%;
     max-width: 984px;
     padding: 0;
+    font-family: "Inter";
 }
 .header__container{
     display: flex;
@@ -14,7 +15,6 @@
 .header__title{
     max-width: 720px;
     margin: 0;
-    font-family: Inter;
     font-size: 96px;
     font-weight: 900;
     line-height: 100px;
@@ -22,7 +22,6 @@
 }
 .header__subheading{
     max-width: 720px;
-    font-family: Inter;
     font-size: 30px;
     font-weight: 400;
     line-height: 36px;
