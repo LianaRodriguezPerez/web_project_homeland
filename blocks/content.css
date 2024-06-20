@@ -1,38 +1,105 @@
-.content{
-        width: 65%;
-        display: flex;
-        flex-wrap: wrap;
-        margin: 3% auto;
-        margin-left: 11%;
-      }
+
+.content__description{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    color: white;
+    max-width: 984px;
+    height: auto;
+    margin-top: 92px;
+    font-family: "inter", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+ }
 
 .content__title{
-    font-family: "Inter";
-    font-size: 54px;
-    font-weight: 900;
-    line-height: 1.15;
-    text-align: left;
     max-width: 830px;
+    margin: 0;
+    font-size: 54px;
+    line-height: 58px;
+    font-weight: bold;
+    text-align: start;
 }
 .content__quote{
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 1.5;
-    text-align: left;
     max-width: 738px;
+    margin: 0;
+    padding-top: 30px;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: left;
 }
 .content__quote-cite{
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 1.5;
-    text-align: end;
     max-width: 732px;
+    margin: 0;
+    padding-top: 10px;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: end;
 }
 .content__text{
+    width: 100%;
+    margin-top: 32px;
     font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
+    line-height: 26px;
+
+}
+@media screen and (max-width: 768px) {
+    .content__description{
+        max-width: 720px;
+        height: auto;
+        margin-top: 90px;
+    }
+    .content__title{
+        max-width: 100%;
+        padding: 10px;
+        font-family: Inter;
+        font-size: 45px;
+        font-weight: 900;
+        line-height: 49px;
+        text-align: left;
+
+    }
+    .content__quote{
+        max-width: 100%;
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 400;
+        text-align: start;
+    }
+}
+
+@media screen and (max-width: 320px) {  
+    .content__description{
+        width: 100%;
+
+  }
+  .content__title{
+    padding: 10px;
+    font-size: 32px;
+    font-weight: 900;
     text-align: left;
-    max-width: 722px;
+    max-width: 95%;
+}
+.content__quote{
+    max-width: 100%;
+    padding-left: 100px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: start;
+}
+}
+.content__quote-cite{
+    max-width: 95%;
+    padding-top: 10px;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: end;
+}
+.content__text{
+    max-width: 95%;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
 
 }

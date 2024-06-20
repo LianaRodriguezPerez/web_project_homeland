@@ -1,15 +1,19 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 body{
   margin: 0;
   font-family: "Inter";
 }
-
-
 .page {
+  font-size: 16px;
+  line-height: 1.15;
     background-color: #2a2c2f;
-    margin: 0 auto;
-    font-size: 16px;
-    line-height: 1.15;
-    font-family: "Inter";
+    margin: 0;
     color: white;
     display: flex;
     flex-direction: column;
