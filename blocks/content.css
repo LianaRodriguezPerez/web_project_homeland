@@ -46,12 +46,10 @@
 @media screen and (max-width: 768px) {
     .content__description{
         max-width: 720px;
-        height: auto;
-        margin-top: 90px;
+        margin: auto;
     }
     .content__title{
-        max-width: 100%;
-        padding: 10px;
+        padding: 2px;
         font-family: Inter;
         font-size: 45px;
         font-weight: 900;
@@ -67,37 +65,34 @@
         text-align: start;
     }
 }
-@media screen and (max-width: 360px) { 
-    .content__description{
-        margin: auto;
-        color: white;
-        max-width: 90%;
-        font-family: "inter", Arial, Helvetica, sans-serif;
-        font-weight: normal;
-        align-items: center;
+
+/*MEDIA SCREEN 580PX*/
+
+@media screen and (max-width: 580px) { 
+.content__description{
+    margin: auto;
+    color: white;
+    max-width: 90%;
+    font-weight: normal;
+    align-items: center;
      } 
-  .content__title{
+.content__title{
     font-size: 32px;
     font-weight: 900;
     line-height: 35px;
     text-align: left;
-    
-
   }
-    .content__quote{
-        font-family: Inter;
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 30px;
-        text-align: left;
-        
+.content__quote{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;    
 }
 .content__quote-cite{
     font-size: 24px;
     font-weight: 400;
     line-height: 34px;
     text-align: right;
-
 }
 .content__text{
     font-size: 16px;
@@ -105,17 +100,15 @@
     font-weight: 400;
 }
 }
+/*MEDIA SCREEN 320PX*/
 
 @media screen and (max-width: 320px) {  
-    .content__description{
-        background-color: brown;
-        max-width: 320px;
-        line-height: 16px;
-        font-weight: 300;
-
+.content__description{
+    max-width: 320px;
+    line-height: 16px;
+    font-weight: 300;
   }
 .content__quote{
-    background-color: blue;
     padding-top: 0;
     padding-left: 10%;
     padding-right: 2%;
@@ -125,5 +118,4 @@
     margin: auto;
     max-width: 90%;
     padding: 2%;
-
 }

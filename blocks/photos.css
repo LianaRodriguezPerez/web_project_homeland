@@ -11,13 +11,23 @@
     max-width: 100%;
 }
 
-@media screen and (max-width: 768px) {  
+@media screen and (max-width: 768px) { 
     .photo__grid{
-        grid-template-columns: repeat(2, 1fr);
+        box-sizing: border-box;
+        background-color: blue;
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        justify-content: center;
+        gap:0;
+        align-items: center;
         padding: 1%;
     }
+    .photos__item{
+        max-width: 352px;
+    }
+  
 }
-@media screen and (max-width: 360px) {  
+@media screen and (max-width: 420px) {  
     .photo__grid{
         box-sizing: border-box;
         margin:auto;

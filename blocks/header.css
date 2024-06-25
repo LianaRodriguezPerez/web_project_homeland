@@ -28,7 +28,7 @@
   line-height: 36px;
 }
 .header__image{
-    width: 1000px;
+    width: 984px;
     height: 615px;
     object-fit: fill;
 }
@@ -37,7 +37,7 @@
       box-sizing: border-box;
       margin: 0;
       padding: 0;
-      width: 100%;
+      width: 100vh;
       text-align: center;
 
     }
@@ -62,18 +62,18 @@
     }
     .header__image {
         object-fit: fill;
-        width: 100%;
+        width: max-content;
         max-height: 480px;
       }
   }
-  @media screen and (min-width: 360px) {
+  @media screen and (max-width: 580px) {
   
     .header__subheading{
       font-size: 14px;
     }
     .header__image {
       object-fit: fill;
-      width: 320px;
+      width: max-content;
       height: 200px;
       gap: 0px;
       opacity: 0px;
