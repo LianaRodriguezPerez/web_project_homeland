@@ -7,7 +7,7 @@
     padding: 1%;
 }
 
-.photos__item{
+.photos__grid-item{
     max-width: 100%;
 }
 
@@ -19,14 +19,14 @@
         gap: 5px;
         padding: 1%;
     }
-    .photos__item{
+    .photos__grid-item{
         max-width: max-content;
         padding: 2%;
     }
   
 }
 @media screen and (max-width: 520px) {  
-    .photo__grid{
+    .photos__grid-item{
         box-sizing: border-box;
         margin:auto;
         display: flex;
