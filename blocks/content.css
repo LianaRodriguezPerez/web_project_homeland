@@ -43,7 +43,6 @@
 }
 @media screen and(max-width: 768px) {
     .content__description{
-        max-width: 720px;
         margin: auto;
     }
     .content__title{
@@ -61,8 +60,6 @@
         text-align: start;
     }
 }
-
-/*MEDIA SCREEN 580PX*/
 
 @media screen and (max-width: 580px) { 
 .content__description{
@@ -95,11 +92,8 @@
     font-weight: 400;
 }
 }
-/*MEDIA SCREEN 320PX*/
-
 @media screen and (max-width: 320px) {  
-.content__description{
-    max-width: 320px;
+.content__description{  
     line-height: 16px;
     font-weight: 300;
   }
