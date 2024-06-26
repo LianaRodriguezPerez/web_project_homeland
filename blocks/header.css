@@ -31,8 +31,6 @@
     width: 984px;
     height: 615px;
     object-fit: fill;
-    background: rgba(0, 0, 0, 1);
-    box-shadow: 10px 10px 25px #00000080;
 }
 @media screen and (max-width: 768px) {
     .header{
