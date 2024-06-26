@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);  
     align-items: center;
-    justify-items:center ;
+    justify-items:center;
     gap:10px;
     padding: 1%;
 }
@@ -14,20 +14,18 @@
 @media screen and (max-width: 768px) { 
     .photo__grid{
         box-sizing: border-box;
-        background-color: blue;
         display: grid;
         grid-template-columns: 1fr 1fr; 
-        justify-content: center;
-        gap:0;
-        align-items: center;
+        gap: 5px;
         padding: 1%;
     }
     .photos__item{
-        max-width: 352px;
+        max-width: max-content;
+        padding: 2%;
     }
   
 }
-@media screen and (max-width: 420px) {  
+@media screen and (max-width: 520px) {  
     .photo__grid{
         box-sizing: border-box;
         margin:auto;
@@ -36,11 +34,9 @@
 
     }
 
-    
 }
 @media screen and (max-width: 320px) {  
     .photo__grid{
-        background-color: blue;
         display: flex; 
         align-items: center;
         justify-items:center ;

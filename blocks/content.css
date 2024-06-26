@@ -1,14 +1,12 @@
 
 .content__description{
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    color: white;
-    max-width: 984px;
-    height: auto;
-    margin-top: 92px;
-    font-family: "inter", Arial, Helvetica, sans-serif;
-    font-weight: normal;
+    margin : 0 auto;
+    color : white;
+    max-width : 984px;
+    height : auto;
+    margin-top : 92px;
+    font-family : "inter", Arial, Helvetica, sans-serif;
+    font-weight : normal;
  }
 
 .content__title{
@@ -43,22 +41,20 @@
     line-height: 26px;
 
 }
-@media screen and (max-width: 768px) {
+@media screen and(max-width: 768px) {
     .content__description{
         max-width: 720px;
         margin: auto;
     }
     .content__title{
         padding: 2px;
-        font-family: Inter;
         font-size: 45px;
-        font-weight: 900;
+        font-weight: 800;
         line-height: 49px;
         text-align: left;
 
     }
     .content__quote{
-        max-width: 100%;
         font-size: 24px;
         line-height: 30px;
         font-weight: 400;
@@ -74,8 +70,7 @@
     color: white;
     max-width: 90%;
     font-weight: normal;
-    align-items: center;
-     } 
+} 
 .content__title{
     font-size: 32px;
     font-weight: 900;
