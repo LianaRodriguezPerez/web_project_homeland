@@ -81,7 +81,7 @@ a:focus {
     font-size: 18px;  
     line-height: 170%;
   }
-  #places__paragraphs{
+  #place__paragraphs{
     max-width: 95%;
     font-size: 18px;  
     line-height: 130%;
@@ -126,7 +126,7 @@ a:focus {
       font-size: 16px;  
       line-height: 21px;
     }
-    #places__paragraphs{
+    #place__paragraphs{
       font-size: 16px;  
       line-height: 20px;
     }
@@ -171,7 +171,7 @@ a:focus {
         font-size: 14px;
         line-height: 200%;
       }
-      #places__paragraphs{
+      #place__paragraphs{
         margin: auto;
         font-size: 14px;
         line-height: 200%;
