@@ -76,7 +76,6 @@
       width: max-content;
       height: 200px;
       gap: 0px;
-      opacity: 0px;
 
     }
   }
@@ -103,7 +102,6 @@
 
   }
     .header__title {
-      background-color: blanchedalmond;
       font-size: 14px;
       font-weight: 400;
       line-height: 20px;

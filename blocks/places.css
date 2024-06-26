@@ -40,7 +40,6 @@
     font-size: 12px;
     padding: 13px 20px 13px 20px;
     border-radius: 4px 0px 0px 0px;
-    opacity: 0px;
     background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
     box-shadow: 5px 5px 10px 0px #00000040;
   } 
@@ -73,7 +72,6 @@ a:focus {
     max-width: 100%;
     padding: 0 ;
     margin: 0;
-    opacity: 0px;
     font-size: 16px;
 }
   .places__paragraphs{
@@ -111,15 +109,12 @@ a:focus {
   }
   .places__image{
     margin: 0 auto;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 }
 } 
   .places__button {
     font-size: 14px;
     font-weight: 400;
     line-height: 21.78px;
-    background: linear-gradient(90deg, #0278FE 0%, #003A7B 100%);
-    box-shadow: 10px 10px 25px 0px #00000080;
     margin: auto;
   }
     .places__paragraphs{
