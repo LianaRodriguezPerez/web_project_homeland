@@ -27,7 +27,6 @@
   }
   .places__image {
     grid-area: image;
-    width: 90%;
     box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
   }
   .places__image:hover {
@@ -36,7 +35,7 @@
   .places__button {
     grid-area: button;
     color: #ffffff;
-    width: 70%;
+    width: 80%;
     font-size: 12px;
     padding: 13px 20px 13px 20px;
     border-radius: 4px 0px 0px 0px;
@@ -109,6 +108,12 @@ a:focus {
   }
   .places__image{
     margin: 0 auto;
+    max-width: 100%;   
+    max-height: 340px;
+    background: #000000;
+    box-shadow: 10px 10px 25px 0px #00000080;
+
+
 }
 } 
   .places__button {
@@ -157,6 +162,7 @@ a:focus {
         .places__image {
           margin: auto;
           min-width: 0px;
+
         }     
         .places__button {
         margin: auto;
