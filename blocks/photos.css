@@ -36,16 +36,13 @@
 
 }
 @media screen and (max-width: 320px) {  
-    .photo__grid{
+    .photos{
         display: flex; 
-        align-items: center;
-        justify-items:center ;
+        flex-direction: column;
         box-sizing: border-box;
         padding: 2%;
-        max-width: 100vh;
-        object-fit: fill;
     }
-    .photos__item{
+    .photos__grid-item{
         object-fit: fill;
         max-width: 80%;
     }

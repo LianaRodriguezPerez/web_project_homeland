@@ -159,10 +159,11 @@ a:focus {
         .places__image {
           margin: auto;
           min-width: 0px;
+          height: 560px;
 
         }     
         .places__button {
-        margin: auto;
+        margin: 0;
         } 
       .places__paragraphs {
         margin: auto;
@@ -176,4 +177,8 @@ a:focus {
       }
         
       }
+      @media screen and (max-width: 320px) {
+        .places__image {
+          height: 320px;
 
+        }}
