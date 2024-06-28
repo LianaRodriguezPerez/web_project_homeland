@@ -35,6 +35,13 @@
     }
 
 }
+@media screen and (max-width: 480px) {  
+    .photos{
+        display: flex; 
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 2%;
+    }
 @media screen and (max-width: 320px) {  
     .photos{
         display: flex; 
@@ -50,3 +57,4 @@
 
 }
 
+}
